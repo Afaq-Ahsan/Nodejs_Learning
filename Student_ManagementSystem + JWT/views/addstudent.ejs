@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Student Form</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .signup-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .signup-container h2 {
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      .signup-form input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      .signup-form button {
+        background-color: #4caf50;
+        color: #ffffff;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }
+
+      .signup-form button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signup-container">
+      <h2>Add Student Data 🏫</h2>
+      <form class="signup-form" action="/addstudent" method="post">
+        <input type="text" name="firstName" placeholder="First Name" required />
+        <br />
+        <input type="text" name="lastName" placeholder="Last Name" required />
+        <br />
+        <input type="email" name="email" placeholder="email" required />
+        <br />
+        <input type="text" name="class" placeholder="class" required />
+        <br />               
+        <input type="text" name="gender" placeholder="gender" required />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

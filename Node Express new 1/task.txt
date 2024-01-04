@@ -1,0 +1,22 @@
+REST API JSON
+
+GET/users : list all users                 //DONE
+GET/users/1 : get user whose id is 1
+GET/users/2 : get user whose id is 2
+
+
+POST/users : create new users 
+
+
+PATCH/user/1 : edit the user with id 1 
+
+DELETE/user/1 : Delete user whose id is 1
+
+
+
+
+DataBase connectivity with mongoDB
+
+1. schema define the structure
+2. Schema Model
+3. Using model we do CRUD operations 
