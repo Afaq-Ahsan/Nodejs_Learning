@@ -12,7 +12,7 @@ const PORT = 3000;
 // app.get("/",(req,res)=>{
 //   res.end(`<h1>Hi my name is afaq ahsan ! </h1>`)
 // })
-
+ 
 // ! For redering HTML we are going to use EJS => npm i EJS
 
 //! for using ejs we first have to set our view engine as ejs 
